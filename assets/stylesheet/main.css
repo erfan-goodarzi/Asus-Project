@@ -166,10 +166,9 @@ header .col-lg-12 #img-head {
 }
 
 #design .design-main .design-body .design-title h5 {
-  font-weight: 700;
-  font-style: italic;
+  font-weight: 600;
   color: #f0ec1d;
-  font-size: 21px;
+  font-size: 23px;
 }
 
 #design .design-main .design-body .design-title p {
@@ -197,5 +196,469 @@ header .col-lg-12 #img-head {
 
 #design .design-btn button:hover {
   background: #f0ec1d;
+}
+
+#color {
+  height: 100vh;
+}
+
+#color .color-main {
+  background: url(../img/1_main.jpg);
+  background-position: center;
+  top: -21rem;
+  width: 100%;
+  height: 240vh;
+  position: relative;
+  z-index: -1;
+}
+
+#color .color-main .color-title {
+  padding: 31rem 23rem 1rem 20rem;
+}
+
+#color .color-main .color-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#color .color-main .color-title p {
+  font-size: 22px;
+}
+
+#carousel {
+  margin-top: 42rem;
+  height: 87vh;
+  background: #222222;
+}
+
+#carousel a {
+  width: 2%;
+  top: 11rem;
+  background: #000000d9;
+  height: 20%;
+}
+
+#carousel .carousel {
+  top: -3rem;
+}
+
+#carousel .carousel p {
+  font-size: 18px;
+  padding: 14px 36px;
+  font-weight: 400;
+}
+
+#free .free-main {
+  background: url(../img/05_banner.jpg);
+  background-position: center;
+  width: 100%;
+  height: 114vh;
+  z-index: 2;
+  position: relative;
+}
+
+#free .free-main .dscp-free {
+  position: absolute;
+  top: 20rem;
+  left: 14rem;
+  width: 22%;
+}
+
+#free .free-main .dscp-free h3 {
+  font-size: 31px;
+  font-weight: 300;
+}
+
+#free .free-main .dscp-free h1 {
+  font-size: 50px;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+#light .light-main {
+  background: url(../img/bg2.jpg);
+  background-position: center;
+  width: 100%;
+  height: 210vh;
+  z-index: 2;
+  position: relative;
+}
+
+#light .light-main .light-title {
+  padding: 6rem 47rem 4rem 13rem;
+}
+
+#light .light-main .light-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#light .light-main .light-title p {
+  font-size: 21px;
+}
+
+#light .laptop-light-1 {
+  position: absolute;
+  top: 11rem;
+  left: 27rem;
+}
+
+#light .laptop-light-2 {
+  position: absolute;
+  top: 33rem;
+  right: 20rem;
+  z-index: 0;
+}
+
+#light .laptop-light-3 {
+  position: absolute;
+  top: 29rem;
+  right: 22rem;
+}
+
+#light .laptop-light-4 {
+  position: absolute;
+  top: 31rem;
+  right: -17rem;
+}
+
+#light .laptop-light-5 {
+  position: absolute;
+  top: 69rem;
+  right: 17rem;
+}
+
+#light .laptop-light-6 {
+  position: absolute;
+  top: 56rem;
+  right: 72.4rem;
+}
+
+#light .laptop-light-7 {
+  position: absolute;
+  top: 86rem;
+  right: 5rem;
+}
+
+#light .laptop-light-8 {
+  position: absolute;
+  top: 14rem;
+  right: 33rem;
+}
+
+#light .laptop-light-9 {
+  position: absolute;
+  top: 26rem;
+  right: 81rem;
+}
+
+#light .laptop-light-4,
+#light .laptop-light-5,
+#light .laptop-light-6,
+#light .laptop-light-7,
+#light .laptop-light-8,
+#light .laptop-light-9 {
+  -webkit-animation: laptop 8s infinite;
+          animation: laptop 8s infinite;
+}
+
+@-webkit-keyframes laptop {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes laptop {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+#feature {
+  background: url(../img/07_main.jpg);
+  background-position: center;
+  width: 100%;
+  height: 270vh;
+  z-index: 2;
+  position: relative;
+}
+
+#feature .feature-title {
+  padding: 12rem 27rem 3rem 24rem;
+}
+
+#feature .feature-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#feature .feature-title p {
+  font-size: 21px;
+}
+
+#feature .post-feature img {
+  width: 59%;
+  padding: 20px 0px;
+}
+
+#feature .po-feature {
+  margin: -2px 29px;
+}
+
+#feature .po-feature span {
+  position: relative;
+  right: 3px;
+  font-weight: 500;
+  top: -16px;
+}
+
+#feature #number,
+#feature #number1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#discover .discover-main {
+  background: url(../img/08_banner.jpg);
+  background-position: center;
+  width: 100%;
+  height: 114vh;
+  z-index: 2;
+  position: relative;
+}
+
+#discover .discover-main .dscp-discover {
+  position: absolute;
+  top: 20rem;
+  left: 14rem;
+  width: 22%;
+}
+
+#discover .discover-main .dscp-discover h3 {
+  font-size: 31px;
+  font-weight: 300;
+}
+
+#discover .discover-main .dscp-discover h1 {
+  font-size: 50px;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
+#performance .performance-main {
+  background: url(../img/laptp.jpg);
+  background-position: center;
+  width: 100%;
+  height: 190vh;
+  z-index: 3;
+  position: relative;
+}
+
+#performance .performance-main .performance-title {
+  padding: 6rem 53rem 4rem 7rem;
+}
+
+#performance .performance-main .performance-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#performance .performance-main .performance-title p {
+  font-size: 21px;
+}
+
+#performance .laptop-per-1 {
+  position: absolute;
+  top: -4rem;
+  left: 28rem;
+}
+
+#performance .laptop-per-2 {
+  position: absolute;
+  top: -1rem;
+  right: -8rem;
+  z-index: 0;
+}
+
+#performance .per-footer {
+  margin-top: 34rem;
+}
+
+#performance .per-footer .spn {
+  position: relative;
+  top: -37px;
+}
+
+#performance .per-footer .per-tit span {
+  padding: 36px 6px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#conection {
+  height: -webkit-fill-available;
+}
+
+#conection .conection-main {
+  background: url(../img/10_main.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 295vh;
+  top: -35rem;
+  z-index: 2;
+  position: relative;
+}
+
+#conection .conection-main .conection-title {
+  padding: 45rem 12rem 3rem 43rem;
+}
+
+#conection .conection-main .conection-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#conection .conection-main .conection-title p {
+  font-size: 21px;
+}
+
+#conection .conection-main .conc-footer {
+  margin-top: 0rem;
+  margin-left: 34rem;
+}
+
+#conection .conection-main .conc-footer .spn {
+  position: relative;
+  top: -37px;
+}
+
+#conection .conection-main .conc-footer .conc-tit span {
+  padding: 36px 6px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#number .number-main {
+  background: url(../img/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 156vh;
+  top: 53rem;
+  z-index: 1;
+  position: relative;
+}
+
+#number .number-main .number-img {
+  position: absolute;
+  left: 5rem;
+  top: 0;
+  z-index: -1;
+}
+
+#number .number-main .number-title {
+  padding: 44rem 27rem 3rem 25rem;
+}
+
+#number .number-main .number-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#number .number-main .number-title p {
+  font-size: 21px;
+}
+
+#number .number-main .number-title img {
+  width: 13%;
+}
+
+#audio .audio-main {
+  background: url(../img/12_main.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+  top: 53rem;
+  z-index: 1;
+  position: relative;
+}
+
+#audio .audio-main .audio-img {
+  position: absolute;
+  left: 5rem;
+  top: 0;
+  z-index: -1;
+}
+
+#audio .audio-main .audio-title {
+  padding: 16rem 8rem 4rem 49rem;
+}
+
+#audio .audio-main .audio-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#audio .audio-main .audio-title p {
+  font-size: 21px;
+}
+
+#sticker .sticker-main {
+  background: url(../img/sticker.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+  top: 53rem;
+  z-index: 1;
+  position: relative;
+}
+
+#sticker .sticker-main .sticker-img {
+  position: absolute;
+  left: 5rem;
+  top: 0;
+  z-index: -1;
+}
+
+#sticker .sticker-main .sticker-title {
+  padding: 6rem 28rem 4rem 23rem;
+}
+
+#sticker .sticker-main .sticker-title h5 {
+  font-weight: 600;
+  color: #f0ec1d;
+  font-size: 23px;
+}
+
+#sticker .sticker-main .sticker-title p {
+  font-size: 21px;
 }
 /*# sourceMappingURL=main.css.map */

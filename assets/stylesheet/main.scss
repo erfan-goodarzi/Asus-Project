@@ -174,10 +174,9 @@ header {
         padding: 41rem 23rem;
 
         h5 {
-          font-weight: 700;
-          font-style: italic;
+          font-weight: 600;
           color: #f0ec1d;
-          font-size: 21px;
+          font-size: 23px;
         }
 
         p {
@@ -205,6 +204,503 @@ header {
 
       &:hover {
         background: #f0ec1d;
+      }
+    }
+  }
+}
+
+
+//Color--------------------
+#color {
+  height: 100vh;
+
+  .color-main {
+    background: url(../img/1_main.jpg);
+    background-position: center;
+    top: -21rem;
+    width: 100%;
+    height: 240vh;
+    position: relative;
+    z-index: -1;
+
+    .color-title {
+      padding: 31rem 23rem 1rem 20rem;
+
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+//carousel
+#carousel {
+  margin-top: 42rem;
+  height: 87vh;
+  background: #222222;
+
+  a {
+    width: 2%;
+    top: 11rem;
+    background: #000000d9;
+    height: 20%;
+  }
+
+  .carousel {
+    top: -3rem;
+
+    p {
+      font-size: 18px;
+      padding: 14px 36px;
+      font-weight: 400;
+    }
+  }
+}
+
+//Free---------------------
+#free {
+  .free-main {
+    background: url(../img/05_banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 114vh;
+    z-index: 2;
+    position: relative;
+
+    .dscp-free {
+      position: absolute;
+      top: 20rem;
+      left: 14rem;
+      width: 22%;
+
+      h3 {
+        font-size: 31px;
+        font-weight: 300;
+      }
+
+      h1 {
+        font-size: 50px;
+        line-height: 1.9;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+
+//Light-------------------------------
+#light {
+  .light-main {
+    background: url(../img/bg2.jpg);
+    background-position: center;
+    width: 100%;
+    height: 210vh;
+    z-index: 2;
+    position: relative;
+
+    .light-title {
+      padding: 6rem 47rem 4rem 13rem;
+
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+
+      p {
+        font-size: 21px;
+      }
+    }
+
+  }
+
+  .laptop-light-1 {
+    position: absolute;
+    top: 11rem;
+    left: 27rem;
+
+  }
+
+
+  .laptop-light-2 {
+    position: absolute;
+    top: 33rem;
+    right: 20rem;
+    z-index: 0;
+
+  }
+
+  .laptop-light-3 {
+    position: absolute;
+    top: 29rem;
+    right: 22rem;
+
+  }
+
+
+
+  .laptop-light-4 {
+    position: absolute;
+    top: 31rem;
+    right: -17rem;
+
+  }
+
+  .laptop-light-5 {
+    position: absolute;
+    top: 69rem;
+    right: 17rem;
+  }
+
+  .laptop-light-6 {
+    position: absolute;
+    top: 56rem;
+    right: 72.4rem;
+  }
+
+  .laptop-light-7 {
+    position: absolute;
+    top: 86rem;
+    right: 5rem;
+  }
+
+  .laptop-light-8 {
+    position: absolute;
+    top: 14rem;
+    right: 33rem;
+  }
+
+  .laptop-light-9 {
+    position: absolute;
+    top: 26rem;
+    right: 81rem;
+  }
+
+  .laptop-light-4,
+  .laptop-light-5,
+  .laptop-light-6,
+  .laptop-light-7,
+  .laptop-light-8,
+  .laptop-light-9 {
+    animation: laptop 8s infinite;
+  }
+
+
+  @keyframes laptop {
+    0% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+
+    50% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+
+    100% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+}
+
+
+#feature {
+  background: url(../img/07_main.jpg);
+  background-position: center;
+  width: 100%;
+  height: 270vh;
+  z-index: 2;
+  position: relative;
+
+
+  .feature-title {
+    padding: 12rem 27rem 3rem 24rem;
+
+    h5 {
+      font-weight: 600;
+      color: #f0ec1d;
+      font-size: 23px;
+    }
+
+    p {
+      font-size: 21px;
+    }
+  }
+
+  .post-feature {
+    img {
+      width: 59%;
+      padding: 20px 0px;
+    }
+  }
+
+  .po-feature {
+    margin: -2px 29px;
+
+    span {
+      position: relative;
+      right: 3px;
+      font-weight: 500;
+      top: -16px;
+    }
+  }
+
+  #number,
+  #number1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+}
+
+#discover {
+  .discover-main {
+    background: url(../img/08_banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 114vh;
+    z-index: 2;
+    position: relative;
+
+    .dscp-discover {
+      position: absolute;
+      top: 20rem;
+      left: 14rem;
+      width: 22%;
+
+      h3 {
+        font-size: 31px;
+        font-weight: 300;
+      }
+
+      h1 {
+        font-size: 50px;
+        line-height: 1.9;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+
+
+//performance-------------------------------
+#performance {
+  .performance-main {
+    background: url(../img/laptp.jpg);
+    background-position: center;
+    width: 100%;
+    height: 190vh;
+    z-index: 3;
+    position: relative;
+
+    .performance-title {
+      padding: 6rem 53rem 4rem 7rem;
+
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+
+      p {
+        font-size: 21px;
+      }
+    }
+
+  }
+
+  .laptop-per-1 {
+    position: absolute;
+    top: -4rem;
+    left: 28rem;
+
+  }
+
+
+  .laptop-per-2 {
+    position: absolute;
+    top: -1rem;
+    right: -8rem;
+    z-index: 0;
+
+  }
+
+  .per-footer {
+    margin-top: 34rem;
+
+    .spn {
+      position: relative;
+      top: -37px;
+    }
+
+    .per-tit {
+
+      span {
+        padding: 36px 6px;
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+//conection-------------------
+#conection {
+  height: -webkit-fill-available;
+
+  .conection-main {
+    background: url(../img/10_main.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 295vh;
+    top: -35rem;
+    z-index: 2;
+    position: relative;
+
+    .conection-title {
+      padding: 45rem 12rem 3rem 43rem;
+
+
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+
+      p {
+        font-size: 21px;
+      }
+    }
+
+    .conc-footer {
+      margin-top: 0rem;
+      margin-left: 34rem;
+
+      .spn {
+        position: relative;
+        top: -37px;
+      }
+
+      .conc-tit {
+
+        span {
+          padding: 36px 6px;
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+
+
+//number-------------------
+#number {
+  .number-main {
+    background: url(../img/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 156vh;
+    top: 53rem;
+    z-index: 1;
+    position: relative;
+
+    .number-img {
+      position: absolute;
+      left: 5rem;
+      top: 0;
+      z-index: -1;
+    }
+    .number-title {
+      padding: 44rem 27rem 3rem 25rem;
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+      p {
+        font-size: 21px;
+      }
+      img{
+        width: 13%;
+      }
+    }
+  }
+}
+
+
+//audio-------------------
+#audio {
+  .audio-main {
+    background: url(../img/12_main.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+    top: 53rem;
+    z-index: 1;
+    position: relative;
+
+    .audio-img {
+      position: absolute;
+      left: 5rem;
+      top: 0;
+      z-index: -1;
+    }
+    .audio-title {
+      padding: 16rem 8rem 4rem 49rem;
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+      p {
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+
+
+//sticker-------------------
+#sticker {
+  .sticker-main {
+    background: url(../img/sticker.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+    top: 53rem;
+    z-index: 1;
+    position: relative;
+
+    .sticker-img {
+      position: absolute;
+      left: 5rem;
+      top: 0;
+      z-index: -1;
+    }
+    .sticker-title {
+      padding: 6rem 28rem 4rem 23rem;
+      h5 {
+        font-weight: 600;
+        color: #f0ec1d;
+        font-size: 23px;
+      }
+      p {
+        font-size: 21px;
       }
     }
   }

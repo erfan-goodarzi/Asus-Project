@@ -66,10 +66,13 @@
     width: 92%;
   }
   .design-main {
-    height: 116vh !important;
+    height: 231vh !important;
+    background: #706f75 !important;
   }
   .design-post {
     margin-right: 3rem !important;
+    width: 82% !important;
+    margin-top: -32rem !important;
   }
   .design-post img {
     width: 100%;
@@ -81,11 +84,271 @@
     display: none;
   }
   .design-title {
-    padding: 6rem 0rem 41rem 1rem !important;
-    text-align: left !important;
+    padding: 3rem 1rem 35rem 0rem !important;
+    text-align: right !important;
   }
   .design-title p {
     font-size: 13px !important;
+  }
+  .item-design {
+    width: 76%;
+    margin-right: 28px;
+    padding-bottom: 2rem;
+  }
+  .color-main {
+    height: 237vh !important;
+  }
+  .color-main .color-title {
+    padding: 28rem 15px 2rem 0 !important;
+    text-align: right !important;
+  }
+  .color-main .color-title h2 {
+    font-size: 23px;
+  }
+  .color-main .color-title p {
+    font-size: 15px !important;
+  }
+  #carousel {
+    margin-top: 42rem;
+    height: 79vh;
+  }
+  #carousel a {
+    top: 8rem;
+  }
+  #my-carousel {
+    display: none !important;
+  }
+  #my-carousel-1 img {
+    width: 101%;
+  }
+  .carousesl-title {
+    width: 100% !important;
+  }
+  #free {
+    position: relative;
+  }
+  #free .free-main {
+    background: url(../img/05_banner22.jpg) !important;
+    background-position: center !important;
+    height: 89vh;
+  }
+  #free .free-main .dscp-free {
+    top: 22rem;
+    left: 1rem;
+    width: 92%;
+  }
+  .light-main {
+    background: url(../img/06_main.jpg) !important;
+    height: 118vh !important;
+  }
+  .light-main .laptop-img {
+    display: none;
+  }
+  .light-main .light-title {
+    padding: 6rem 2rem 4rem 1rem !important;
+    text-align: right !important;
+  }
+  .light-main .light-title p {
+    font-size: 16px !important;
+  }
+  .light-main .light-title span {
+    font-size: 34px !important;
+  }
+  #feature {
+    left: 0;
+    margin-top: -7rem;
+    margin-left: -650px;
+    width: 100%;
+    height: 125vh;
+    background-size: cover;
+  }
+  #feature .feature-title {
+    text-align: right !important;
+    padding: 1rem 1rem 0rem 0rem !important;
+  }
+  #feature .feature-title h2 {
+    font-size: 23px;
+  }
+  #feature .feature-title p {
+    font-size: 15px !important;
+  }
+  .wrapper {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -3rem;
+  }
+  .post-feature img {
+    width: 35% !important;
+  }
+  .po-feature span {
+    font-size: 11px;
+  }
+  #feature #number,
+  #feature #number1 {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+  }
+  #num1,
+  #num2 {
+    position: relative;
+    left: 2rem;
+  }
+  #discover {
+    position: relative;
+  }
+  #discover .discover-main {
+    background: url(../img/08_banner22.jpg) !important;
+    background-position: center !important;
+    height: 89vh;
+  }
+  #discover .discover-main .dscp-discover {
+    top: 22rem;
+    left: 1rem;
+    width: 92%;
+  }
+  #performance .performance-main {
+    background: url(../img/09_main.jpg) !important;
+    position: relative;
+    top: 39rem;
+    left: 282px;
+    margin-top: -1px;
+    width: 168%;
+    height: 121vh;
+  }
+  #performance .performance-title {
+    padding: 2rem 18rem 1rem 2rem !important;
+    text-align: center !important;
+    position: absolute;
+    background: #1e595d;
+    top: -39rem;
+  }
+  #performance .laptop-per-1 {
+    position: absolute !important;
+    top: 30rem !important;
+    right: 6rem;
+  }
+  #performance .laptop-per-1 img {
+    width: 532px;
+  }
+  #performance .laptop-per-2 {
+    position: absolute !important;
+    top: 29rem !important;
+    right: -37rem !important;
+    z-index: 0;
+  }
+  #performance .laptop-per-2 img {
+    width: 43%;
+  }
+  #performance .laptop-per-3 {
+    position: relative;
+    z-index: -1;
+    top: 39rem;
+    left: 0rem;
+    display: block !important;
+  }
+  #performance .laptop-per-3 img {
+    width: 73%;
+  }
+  .per-footer {
+    margin-top: -10rem !important;
+    margin-right: 16rem !important;
+  }
+  .per-warpeer {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  .per-tit h4 {
+    font-size: 40 !important;
+  }
+  .per-tit span {
+    padding: 17px 1px 36px 0px !important;
+    font-size: 16px !important;
+  }
+  #conection .conection-main {
+    background-position: center;
+    background-size: cover;
+    width: 146.3%;
+    height: 185vh;
+    top: 39rem;
+    z-index: 2;
+    left: 12rem;
+    position: relative;
+  }
+  #conection .conection-title {
+    padding: 2rem 13rem 3rem 1rem !important;
+  }
+  #conection .conection-title p {
+    font-size: 16px !important;
+  }
+  #conection .conc-warpeer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 101%;
+  }
+  #conection .conc-footer {
+    margin-top: -4rem !important;
+    margin-left: 1rem !important;
+  }
+  #conection .conc-tit h4 {
+    font-size: 61px !important;
+    height: 23px;
+  }
+  #conection .conc-tit span {
+    padding: 38px 3px !important;
+    font-size: 11px !important;
+    font-weight: 500;
+  }
+  #conection #conc {
+    position: relative !important;
+    right: 19rem !important;
+    top: 8rem !important;
+  }
+  #number .number-main {
+    height: 113vh;
+    top: 75rem;
+  }
+  #number .number-main .number-img {
+    position: absolute;
+    left: 0rem;
+    top: 3rem;
+  }
+  #number .number-main .number-img img {
+    width: 100%;
+  }
+  #number .number-main .number-title {
+    padding: 25rem 1rem 3rem 2rem !important;
+  }
+  #audio .audio-main {
+    left: 135%;
+    margin-top: 296px;
+    width: 235%;
+    height: 195vh;
+    background-size: inherit;
+  }
+  #audio .audio-main .audio-title {
+    padding: 2rem 36rem 0rem 0rem !important;
+  }
+  #audio .audio-main .audio-title p {
+    font-size: 15px;
+  }
+  #sticker .sticker-main {
+    background: none;
+  }
+  #sticker .sticker-title {
+    background: linear-gradient(281deg, #213741, #4a7f95);
+    padding: 2rem 2rem 0rem 1rem !important;
+    text-align: right !important;
+  }
+  #sticker .sticker-title p {
+    font-size: 15px !important;
+  }
+  #sticker img {
+    display: block !important;
+    position: relative;
+    bottom: 23rem;
+    width: 100%;
+    height: 33vh;
   }
 }
 
@@ -140,7 +403,7 @@
     width: 42%;
   }
   .design-main {
-    height: 116vh !important;
+    height: 119vh !important;
   }
   .design-post {
     margin-right: 3rem !important;
@@ -160,6 +423,189 @@
   }
   .design-title {
     padding: 26rem 3rem 41rem 4rem !important;
+  }
+  .color-main {
+    height: 167vh !important;
+  }
+  .color-main .color-title {
+    padding: 30rem 0 1rem 0 !important;
+  }
+  #carousel {
+    margin-top: 21rem;
+    height: 79vh;
+  }
+  #my-carousel-1 img {
+    width: 336%;
+  }
+  .carousesl-title {
+    width: 309% !important;
+  }
+  #my-carousel {
+    display: none !important;
+  }
+  #free {
+    position: relative;
+  }
+  #free .free-main {
+    background: url(../img/05_banner22.jpg) !important;
+    background-position: center !important;
+    height: 48vh;
+    left: 181rem;
+    width: 477%;
+  }
+  #free .free-main .dscp-free {
+    top: 14rem;
+    left: 5rem;
+    width: 17%;
+  }
+  .light-main {
+    background: url(../img/06_main.jpg) !important;
+    height: 118vh !important;
+  }
+  .light-main .laptop-img {
+    display: none;
+  }
+  .light-main .light-title {
+    padding: 7rem 4rem 4rem 4rem !important;
+    text-align: center !important;
+  }
+  #feature {
+    left: 0;
+    margin-top: -612px;
+    margin-left: -650px;
+    width: 100%;
+    height: 105vh;
+    background-size: cover;
+  }
+  #feature .feature-title {
+    padding: 1rem 3rem 0rem 2rem !important;
+  }
+  #discover {
+    position: relative;
+  }
+  #discover .discover-main {
+    background: url(../img/08_banner22.jpg) !important;
+    background-position: center !important;
+    height: 48vh;
+    left: 181rem;
+    width: 477%;
+  }
+  #discover .discover-main .dscp-discover {
+    top: 14rem;
+    left: 5rem;
+    width: 17%;
+  }
+  #performance .performance-main {
+    background: url(../img/09_main.jpg) !important;
+    position: relative;
+    top: 22rem;
+    left: 282px;
+    margin-top: -1px;
+    width: 1053px;
+    height: 121vh;
+  }
+  #performance .performance-title {
+    padding: 2rem 18rem 1rem 2rem !important;
+    text-align: center !important;
+    position: absolute;
+    background: #1e585c;
+    top: -22rem;
+  }
+  #performance .laptop-per-1 {
+    position: absolute !important;
+    top: 31rem !important;
+    left: 10rem !important;
+  }
+  #performance .laptop-per-1 img {
+    width: 95%;
+  }
+  #performance .laptop-per-2 {
+    position: absolute !important;
+    top: 14rem !important;
+    right: -14rem !important;
+    z-index: 0;
+  }
+  #performance .laptop-per-3 {
+    position: relative;
+    z-index: -1;
+    top: 40rem;
+    display: block !important;
+  }
+  #performance .laptop-per-3 img {
+    width: 959;
+  }
+  .per-footer {
+    margin-top: -28rem !important;
+    margin-right: 16rem !important;
+  }
+  .per-warpeer {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  .per-tit h4 {
+    font-size: 40 !important;
+  }
+  .per-tit span {
+    padding: 17px 1px 36px 0px !important;
+    font-size: 16px !important;
+  }
+  #conection .conection-main {
+    position: relative;
+    left: 50%;
+    margin-top: -344px;
+    margin-left: -650px;
+    width: 150%;
+    top: 43rem;
+    height: 162vh;
+  }
+  #conection .conection-title {
+    padding: 2rem 26rem 3rem 4rem !important;
+    text-align: center !important;
+  }
+  #conection .conc-footer {
+    margin-right: 24rem !important;
+    width: 63%;
+  }
+  #number .number-main {
+    height: 113vh;
+    top: 75rem;
+  }
+  #number .number-main .number-img {
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    z-index: -1;
+  }
+  #number .number-main .number-img img {
+    width: 100%;
+  }
+  #number .number-main .number-title {
+    padding: 36rem 8rem 3rem 8rem !important;
+  }
+  #audio .audio-main {
+    left: 50%;
+    margin-top: 296px;
+    width: 150%;
+    height: 140vh;
+    background-size: inherit;
+  }
+  #audio .audio-main .audio-title {
+    padding: 1rem 35rem 0rem 11rem !important;
+    text-align: center !important;
+  }
+  #sticker .sticker-main {
+    background: none;
+  }
+  #sticker .sticker-title {
+    background: linear-gradient(281deg, #1d3138, #447d95);
+    padding: 2rem 5rem 7rem 7rem !important;
+  }
+  #sticker img {
+    display: block !important;
+    position: relative;
+    bottom: 56rem;
+    width: 100%;
+    height: 73vh;
   }
 }
 
@@ -211,7 +657,7 @@
     width: 55%;
   }
   .design-main {
-    height: 109vh !important;
+    height: 115vh !important;
   }
   .design-post {
     margin-right: 5rem !important;
@@ -231,6 +677,161 @@
   }
   .design-title {
     padding: 36rem 10rem 43rem 10rem !important;
+  }
+  .color-main {
+    height: 131vh !important;
+  }
+  .color-main .color-title {
+    padding: 30rem 8rem 1rem 8rem !important;
+  }
+  #carousel {
+    margin-top: 5rem;
+    height: 51vh;
+  }
+  #free {
+    position: relative;
+  }
+  #free .free-main {
+    background: url(../img/05_banner22.jpg) !important;
+    background-position: center !important;
+    height: 48vh;
+    left: 182rem;
+    width: 384%;
+  }
+  #free .free-main .dscp-free {
+    top: 25rem;
+    left: 8rem;
+    width: 21%;
+  }
+  .light-main {
+    background: url(../img/06_main.jpg) !important;
+    height: 88vh !important;
+  }
+  .light-main .laptop-img {
+    display: none;
+  }
+  .light-main .light-title {
+    padding: 7rem 10rem 4rem 9rem !important;
+    text-align: center !important;
+  }
+  #feature {
+    left: 0;
+    margin-top: -612px;
+    margin-left: -650px;
+    width: 100%;
+    height: 83vh;
+    background-size: cover;
+  }
+  #feature .feature-title {
+    padding: 2rem 15rem 0rem 13rem !important;
+  }
+  #discover {
+    position: relative;
+  }
+  #discover .discover-main {
+    background: url(../img/08_banner22.jpg) !important;
+    background-position: center !important;
+    height: 48vh;
+    left: 182rem;
+    width: 384%;
+  }
+  #discover .discover-main .dscp-discover {
+    top: 25rem;
+    left: 8rem;
+    width: 21%;
+  }
+  #performance .performance-main {
+    background: url(../img/09_main.jpg) !important;
+    position: relative;
+    top: 16rem;
+    left: 282px;
+    margin-top: -1px;
+    width: 1303px;
+    height: 96vh;
+  }
+  #performance .performance-title {
+    padding: 2rem 26rem 1rem 10rem !important;
+    text-align: center !important;
+    position: absolute;
+    background: #1c565a;
+    top: -16rem;
+  }
+  #performance .laptop-per-1 {
+    position: absolute !important;
+    top: 21rem !important;
+    left: 10rem !important;
+  }
+  #performance .laptop-per-2 {
+    position: absolute !important;
+    top: 22rem !important;
+    right: -5rem !important;
+    z-index: 0;
+  }
+  #performance .laptop-per-3 {
+    position: relative;
+    z-index: -1;
+    top: 42rem;
+    display: block !important;
+  }
+  .per-footer {
+    margin-top: -30rem !important;
+    margin-right: 15rem !important;
+  }
+  #conection .conection-main {
+    position: relative;
+    left: 50%;
+    margin-top: -344px;
+    margin-left: -650px;
+    width: 150%;
+    top: 39rem;
+    height: 125vh;
+  }
+  #conection .conection-title {
+    padding: 2rem 41rem 3rem 11rem !important;
+    text-align: center !important;
+  }
+  #conection .conc-footer {
+    margin-top: 0rem;
+    margin-right: 33rem !important;
+    width: 63%;
+  }
+  #number .number-main {
+    height: 93vh;
+  }
+  #number .number-main .number-img {
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    z-index: -1;
+  }
+  #number .number-main .number-img img {
+    width: 100%;
+  }
+  #number .number-main .number-title {
+    padding: 42rem 8rem 3rem 8rem !important;
+  }
+  #audio .audio-main {
+    left: 50%;
+    margin-top: -1px;
+    width: 150%;
+    height: 118vh;
+  }
+  #audio .audio-main .audio-title {
+    padding: 1rem 42rem 1rem 11rem !important;
+    text-align: center !important;
+  }
+  #sticker .sticker-main {
+    background: none;
+  }
+  #sticker .sticker-title {
+    padding: 1rem 5rem 7rem 7rem !important;
+  }
+  #sticker img {
+    display: block !important;
+    position: relative;
+    bottom: 118rem;
+    width: 103%;
+    height: 72vh;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
