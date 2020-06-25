@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.9;
+  font-weight: 300;
+}
+
+
+//Header-------------------
+header {
+  position: relative;
+  margin-bottom: 130rem;
+
+  .col-lg-12 {
+    background: url(../img/01_kv.jpg);
+    background-position: center;
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    width: 100%;
+    height: 316vh;
+
+    .img-head {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 14rem;
+        z-index: 2;
+        left: 28rem;
+      }
+
+      h2 {
+        position: absolute;
+        top: 20rem;
+        color: #fff;
+        font-weight: normal;
+        left: 35rem;
+        font-size: 40px;
+      }
+    }
+
+    .description-head {
+      position: relative;
+
+      p {
+        position: absolute;
+        top: 110rem;
+        font-weight: normal;
+        left: 1rem;
+        line-height: 1.9;
+        font-size: 21px;
+        padding: 17px 323px;
+      }
+
+    }
+
+    #img-head {
+      position: absolute;
+      top: 126rem;
+      left: 39rem;
+      width: 17%;
+    }
+  }
+
+}
+
+//Video---------------------------
+#video {
+  padding: 12rem 3rem;
+  background: #304044;
+
+  .img-video {
+    position: relative;
+    overflow: hidden;
+    right: 155px;
+    width: 800px;
+
+    img {
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .description-video {
+    position: absolute;
+    top: 411px;
+    padding: 10px 0px;
+    left: 170px;
+    height: 48px;
+    background: #000000ba;
+    width: 800px;
+  }
+
+  .modal {
+    height: 92vh !important;
+    top: -2rem !important;
+    margin-left: 20rem !important;
+    overflow-x: unset;
+    overflow-y: unset;
+
+    .modal-header {
+      border: none;
+    }
+
+    video {
+      width: 241%;
+    }
+  }
+}
+
+
+//Express----------------------
+#express {
+
+
+  .express-main {
+    background: url(../img/02_banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 114vh;
+    z-index: 2;
+    position: relative;
+
+    .dscp-express {
+      position: absolute;
+      top: 17rem;
+      left: 14rem;
+      width: 22%;
+
+      h3 {
+        font-size: 31px;
+        font-weight: 300;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.9;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+//Design----------------------
+#design {
+  .design-main {
+    background: url(../img/bg.jpg);
+    background-position: center;
+    width: 100%;
+    height: 234vh;
+    position: relative;
+
+    .top-img {
+      position: absolute;
+      top: -14rem;
+      z-index: 1;
+    }
+
+    .boom-img {
+      position: absolute;
+      top: -1rem;
+      z-index: 0;
+      left: 0rem;
+    }
+
+    .design-body {
+      .design-title {
+        padding: 41rem 23rem;
+
+        h5 {
+          font-weight: 700;
+          font-style: italic;
+          color: #f0ec1d;
+          font-size: 21px;
+        }
+
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .design-post {
+    width: 85%;
+    margin-top: -38rem;
+    margin-right: 7rem;
+  }
+
+  .design-btn {
+    text-align: center;
+    margin-top: 5rem;
+
+    button {
+      padding: 11px 35px;
+      border: 1px solid #fff200;
+      border-radius: 24px;
+      transition: all 0.3s ease-in-out;
+      &:hover{
+        background: #f0ec1d;
+      }
+    }
+  }
+}

@@ -1,0 +1,339 @@
+@media (max-width: 575.98px) {
+
+  //Header
+  header {
+    margin-bottom: 113em;
+
+    .col-lg-12 {
+      height: 286vh;
+
+      .description-head {
+        p {
+          top: 94rem;
+        }
+      }
+    }
+
+    .img-head {
+      img {
+        left: 1rem !important;
+        width: 84% !important;
+      }
+
+      h2 {
+        top: 17rem !important;
+        left: 6rem !important;
+        font-size: 19px !important;
+      }
+    }
+
+    .description-head {
+      p {
+        padding: 2px 15px !important;
+        font-size: 10px !important;
+      }
+
+    }
+
+    #img-head {
+      display: none;
+    }
+  }
+
+  //Video
+  #video {
+    padding: 10rem 3rem;
+
+    .img-video {
+      position: relative;
+      top: 6rem;
+      right: -25px;
+      width: 119%;
+
+      img {
+        width: 101%;
+      }
+    }
+
+    .description-video {
+      left: -15px;
+      width: 344px;
+      top: 256px;
+      height: 38px;
+
+      p {
+        font-size: 10px;
+      }
+    }
+
+    .modal {
+      top: 13rem !important;
+      margin-left: 1rem !important;
+
+      video {
+        width: 109%;
+      }
+    }
+  }
+
+  //Express
+  #express {
+    position: relative;
+
+    .express-main {
+      background: url(../img/03_bannerjpg.jpg) !important;
+      background-position: center !important;
+      height: 89vh;
+
+      .dscp-express {
+        top: 31rem;
+        left: 1rem;
+        width: 92%;
+      }
+    }
+  }
+
+  //Design
+  .design-main {
+    height: 116vh !important;
+  }
+
+  .design-post {
+    margin-right: 3rem !important;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .boom-img {
+    display: none;
+  }
+
+  .top-img {
+    display: none;
+  }
+
+  .design-title {
+    padding: 6rem 0rem 41rem 1rem !important;
+    text-align: left !important;
+
+    p {
+      font-size: 13px !important;
+    }
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  //Header
+  header {
+    .col-lg-12 {
+      height: 220vh;
+    }
+
+    .img-head {
+      img {
+
+        left: 5rem !important;
+      }
+
+      h2 {
+        top: 22rem !important;
+        left: 12rem !important;
+      }
+    }
+
+    .description-head {
+      p {
+        padding: 2px 68px !important;
+      }
+
+    }
+
+    #img-head {
+      display: none;
+    }
+  }
+
+  //Video
+  #video {
+    .img-video {
+      right: -82px;
+      width: 784px;
+
+      img {
+        width: 76%;
+      }
+    }
+
+    .description-video {
+      left: 48px;
+      width: 597px;
+      top: 293px;
+    }
+
+    .modal {
+      top: 13rem !important;
+      margin-left: 8rem !important;
+
+      video {
+        width: 154%;
+      }
+    }
+  }
+
+  //Express
+  #express {
+    position: relative;
+
+    .express-main {
+      background: url(../img/03_bannerjpg.jpg) !important;
+      background-position: center !important;
+      height: 64vh;
+
+      .dscp-express {
+        top: 31rem;
+        left: 14rem;
+        width: 42%;
+      }
+    }
+  }
+
+  //Design
+  .design-main {
+    height: 116vh !important;
+  }
+
+  .design-post {
+    margin-right: 3rem !important;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .boom-img {
+    top: 1rem !important;
+    left: 4rem !important;
+
+    img {
+      width: 108%;
+    }
+  }
+
+  .top-img {
+    top: -9rem !important;
+  }
+
+  .design-title {
+    padding: 26rem 3rem 41rem 4rem !important;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  //Header
+  header {
+    margin-bottom: 126rem;
+
+    .col-lg-12 {
+      height: 160vh;
+
+    }
+
+    .img-head {
+      img {
+
+        left: 12rem !important;
+      }
+
+      h2 {
+        top: 22rem !important;
+        left: 19rem !important;
+      }
+    }
+
+    .description-head {
+      p {
+        padding: 2px 133px !important;
+      }
+
+    }
+
+    #img-head {
+      display: none;
+    }
+  }
+
+  //Video
+  #video {
+    .img-video {
+      right: 46px;
+    }
+
+    .description-video {
+      left: 67px;
+    }
+
+    .modal {
+      top: 17rem !important;
+      margin-left: 16rem !important;
+
+      video {
+        width: 209%;
+      }
+    }
+  }
+
+  //Express
+  #express {
+    position: relative;
+
+    .express-main {
+      background: url(../img/03_bannerjpg.jpg) !important;
+      background-position: center !important;
+      height: 48vh;
+
+      .dscp-express {
+        top: 31rem;
+        left: 14rem;
+        width: 55%;
+      }
+    }
+  }
+
+  //Design
+  .design-main {
+    height: 109vh !important;
+  }
+
+  .design-post {
+    margin-right: 5rem !important;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .boom-img {
+    top: 3rem !important;
+    left: 5rem !important;
+
+    img {
+      width: 108%;
+    }
+  }
+
+  .top-img {
+    top: -9rem !important;
+  }
+
+  .design-title {
+    padding: 36rem 10rem 43rem 10rem !important;
+  }
+}
