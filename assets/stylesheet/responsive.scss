@@ -1,4 +1,5 @@
 @media (max-width: 575.98px) {
+
   // navbar
   .link-icon {
     margin-left: -1rem !important;
@@ -11,11 +12,13 @@
   .link-icon {
     top: -3px;
   }
+
   //collapse
   #collapse-link-1 {
     width: 100%;
     left: 0rem !important;
     height: 114px;
+
     li {
       margin-right: 2rem;
       flex-wrap: wrap;
@@ -24,7 +27,7 @@
     a {
       font-size: 9px !important;
       margin: -6px 3px !important;
-  }
+    }
   }
 
   #collapse-link-3 {
@@ -42,7 +45,10 @@
   }
 
   #collapse-menu {
-    ul{ display: block;}
+    ul {
+      display: block;
+    }
+
     background: #2b2b2b;
     width: 100%;
     position: absolute;
@@ -50,7 +56,8 @@
     height: 47vh;
     right: -1px;
     text-align: right;
-    .nav-item{
+
+    .nav-item {
       margin: 14px -79px 14px 5px;
     }
   }
@@ -144,7 +151,7 @@
       height: 89vh;
 
       .dscp-express {
-        top: 31rem;
+        top: 24rem;
         left: 1rem;
         width: 92%;
       }
@@ -590,11 +597,13 @@
   .link-icon {
     top: -3px;
   }
+
   //collapse
   #collapse-link-1 {
     width: 100%;
     left: 0rem !important;
     height: 88px;
+
     li {
       margin-right: 2rem;
       flex-wrap: wrap;
@@ -603,7 +612,7 @@
     a {
       font-size: 11px !important;
       margin: -6px 3px !important;
-  }
+    }
   }
 
   #collapse-link-3 {
@@ -621,7 +630,10 @@
   }
 
   #collapse-menu {
-    ul{ display: block;}
+    ul {
+      display: block;
+    }
+
     background: #2b2b2b;
     width: 100%;
     position: absolute;
@@ -629,7 +641,8 @@
     height: 33vh;
     right: -1px;
     text-align: right;
-    .nav-item{
+
+    .nav-item {
       margin: 14px -79px 14px 5px;
     }
   }
@@ -702,15 +715,16 @@
     .express-main {
       background: url(../img/03_bannerjpg.jpg) !important;
       background-position: center !important;
-      height: 64vh;
+      height: 48vh;
 
       .dscp-express {
-        top: 31rem;
+        top: 19rem;
         left: 14rem;
         width: 42%;
       }
     }
   }
+
 
   //Design
   .design-main {
@@ -752,6 +766,8 @@
   }
 
   //Carousel
+
+
   #carousel {
     margin-top: 21rem;
     height: 79vh;
@@ -1118,8 +1134,8 @@
       height: 48vh;
 
       .dscp-express {
-        top: 31rem;
-        left: 14rem;
+        top: 27rem;
+        left: 15rem;
         width: 55%;
       }
     }
@@ -1165,6 +1181,22 @@
   }
 
   //Carousel
+  #my-carousel-express {
+    .carousel-indicators {
+  
+      right: -44px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+
+      top: 18rem;
+      width: 13%;
+      left: 0rem;
+    }
+
+  }
+
   #carousel {
     margin-top: 5rem;
     height: 51vh;

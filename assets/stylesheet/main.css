@@ -22,7 +22,8 @@ nav .nav-link {
   transition: all 0.3s ease-in-out;
 }
 
-nav .nav-link:hover, nav .nav-link :focus {
+nav .nav-link:hover,
+nav .nav-link :focus {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   color: #03a87c !important;
@@ -147,7 +148,7 @@ nav .link-icon::after {
 #collapse-link-3 a:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #03a87c  !important;
+  color: #03a87c !important;
 }
 
 #collapse-link-3 li {
@@ -265,14 +266,15 @@ header .col-lg-12 #img-head {
   background: url(../img/02_banner.jpg);
   background-position: center;
   width: 100%;
-  height: 114vh;
+  height: 95vh;
+  background-attachment: fixed;
   z-index: 2;
   position: relative;
 }
 
 #express .express-main .dscp-express {
   position: absolute;
-  top: 17rem;
+  top: 13rem;
   left: 14rem;
   width: 22%;
 }
@@ -374,6 +376,42 @@ header .col-lg-12 #img-head {
   font-size: 22px;
 }
 
+#my-carousel-express {
+  z-index: 3;
+}
+
+#my-carousel-express .carousel {
+  z-index: 2;
+}
+
+#my-carousel-express .carousel-control-next-icon,
+#my-carousel-express .carousel-control-prev-icon {
+  background: none;
+  font-size: 31px;
+}
+
+#my-carousel-express .carousel-control-prev,
+#my-carousel-express .carousel-control-next {
+  height: 5vh;
+  top: 21rem;
+  width: 4%;
+  left: 1rem;
+}
+
+#my-carousel-express .carousel-indicators li {
+  width: 12px;
+  height: 13px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+#my-carousel-express .carousel-indicators li i {
+  position: relative;
+  top: -9px;
+  left: -2px;
+  color: #9c9c9c;
+}
+
 #carousel {
   margin-top: 42rem;
   height: 87vh;
@@ -383,6 +421,7 @@ header .col-lg-12 #img-head {
 #carousel a {
   width: 2%;
   top: 11rem;
+  z-index: 2;
   background: #000000d9;
   height: 20%;
 }
@@ -397,18 +436,24 @@ header .col-lg-12 #img-head {
   font-weight: 400;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 2;
+}
+
 #free .free-main {
   background: url(../img/05_banner.jpg);
   background-position: center;
   width: 100%;
-  height: 114vh;
+  height: 95vh;
+  background-attachment: fixed;
   z-index: 2;
   position: relative;
 }
 
 #free .free-main .dscp-free {
   position: absolute;
-  top: 20rem;
+  top: 14rem;
   left: 14rem;
   width: 22%;
 }
@@ -591,14 +636,15 @@ header .col-lg-12 #img-head {
   background: url(../img/08_banner.jpg);
   background-position: center;
   width: 100%;
-  height: 114vh;
+  height: 95vh;
+  background-attachment: fixed;
   z-index: 2;
   position: relative;
 }
 
 #discover .discover-main .dscp-discover {
   position: absolute;
-  top: 20rem;
+  top: 15rem;
   left: 14rem;
   width: 22%;
 }
@@ -903,7 +949,8 @@ header .col-lg-12 #img-head {
   left: 50%;
 }
 
-.nav-toggle span:nth-child(2), .nav-toggle span:nth-child(3) {
+.nav-toggle span:nth-child(2),
+.nav-toggle span:nth-child(3) {
   top: 7px;
 }
 

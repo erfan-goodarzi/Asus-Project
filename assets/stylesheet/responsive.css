@@ -113,7 +113,7 @@
     height: 89vh;
   }
   #express .express-main .dscp-express {
-    top: 31rem;
+    top: 24rem;
     left: 1rem;
     width: 92%;
   }
@@ -522,10 +522,10 @@
   #express .express-main {
     background: url(../img/03_bannerjpg.jpg) !important;
     background-position: center !important;
-    height: 64vh;
+    height: 48vh;
   }
   #express .express-main .dscp-express {
-    top: 31rem;
+    top: 19rem;
     left: 14rem;
     width: 42%;
   }
@@ -819,8 +819,8 @@
     height: 48vh;
   }
   #express .express-main .dscp-express {
-    top: 31rem;
-    left: 14rem;
+    top: 27rem;
+    left: 15rem;
     width: 55%;
   }
   .design-main {
@@ -850,6 +850,15 @@
   }
   .color-main .color-title {
     padding: 30rem 8rem 1rem 8rem !important;
+  }
+  #my-carousel-express .carousel-indicators {
+    right: -44px;
+  }
+  #my-carousel-express .carousel-control-prev,
+  #my-carousel-express .carousel-control-next {
+    top: 18rem;
+    width: 13%;
+    left: 0rem;
   }
   #carousel {
     margin-top: 5rem;
